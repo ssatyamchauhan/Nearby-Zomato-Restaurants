@@ -8,6 +8,7 @@ For linux, install nodejs and npm (node-package-manager) by running following co
 ```
 sudo apt-get update
 sudo apt install nodejs
+sudo apt install npm
 ````
 
 ### How to Run the command?
