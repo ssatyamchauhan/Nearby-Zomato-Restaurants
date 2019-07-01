@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+            body{
+                background:linear-gradient(to top, #76b852, #8DC26F);;
+            }
+
+            .centerdiv{
+                position:absolute;
+                left:30%;
+                top:30%;
+                width:35%;
+                height:50%;
+                background: rgba(0, 0, 0, 0.18);
+                background-size: cover;
+            }
+
+            form{
+
+                margin: 12px 22px 22px 22px;
+                padding: 0;
+                border: 0;
+                font: inherit;
+                font-size: 100%;
+
+            }
+
+            input{
+                width: 80%;
+                margin-left: 12px;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                background-color:rgba(0, 0, 0, 0);
+                text-decoration-color: white;
+            }
+
+            ::placeholder{
+                color: white;
+                font-size: 20px;
+            }
+
+            h1{
+                color: white;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <div class="centerdiv">
+            <h1>Signup Form</h1>
+
+            <form action="/signup" method="POST">
+
+                <input id="name" type="text" name="name" placeholder="Username" required="">
+				<input id="email" type="email" name="email" placeholder="Email" required="">
+				<input id="pass" type="password" name="pass" placeholder="Password" required="">
+                <input id="confirmpass" type="password" name="confirmpass" placeholder="Confirm Password" required="">
+                <input type="submit" value="Signup">
+
+                <p>Already User?</p>
+                <li><a href="http://localhost:2070/login">Click Here For Login</a></li>
+
+
+            </form>
+
+        </div>
+    </body>
+</html>
