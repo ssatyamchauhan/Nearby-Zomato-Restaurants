@@ -13,8 +13,8 @@ sudo apt install nodejs
 ### How to Run the command?
 
 ``` 
-    git clone https://github.com/ssatyamchauhan/IRSC-project-Django-.git
-    nodemon server.js
+https://github.com/ssatyamchauhan/IRSC-project-Django-.git
+nodemon server.js
 ```
 
 Go to your browser and visit
