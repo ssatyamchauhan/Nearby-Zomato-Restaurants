@@ -7,6 +7,8 @@ Hello Gyus! I have written the backend and somehow frontend code of login, signu
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T8K3fG7zNYY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[![Watch the video](https://www.youtube.com/upload_thumbnail?v=T8K3fG7zNYY&t=hqdefault&ts=1561975941025)](https://youtu.be/T8K3fG7zNYY)
+
 
 ## Requirements
 For linux, install nodejs and npm (node-package-manager) by running following commands in your Terminal.
