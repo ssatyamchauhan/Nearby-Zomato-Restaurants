@@ -13,7 +13,7 @@ sudo apt install nodejs
 ### How to Run the command?
 
 ``` 
-https://github.com/ssatyamchauhan/IRSC-project-Django-.git
+https://github.com/ssatyamchauhan/Climbax-Project.git
 nodemon server.js
 ```
 
