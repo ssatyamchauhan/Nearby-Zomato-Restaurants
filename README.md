@@ -5,9 +5,7 @@ Hello Gyus! I have written the backend and somehow frontend code of login, signu
 
 ## Video Overview Of Project
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T8K3fG7zNYY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[![Watch the video](https://www.youtube.com/upload_thumbnail?v=T8K3fG7zNYY&t=hqdefault&ts=1561975941025)](https://youtu.be/T8K3fG7zNYY)
+[![Watch the video](https://marketingland.com/wp-content/ml-loads/2014/10/facebook-video3-1920-800x450.jpg)](https://youtu.be/T8K3fG7zNYY)
 
 
 ## Requirements
