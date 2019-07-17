@@ -37,7 +37,7 @@ npm install nodemon --save
 npm install zomato --save
 npm install zomato.js --save
 npm install zomato-api --save
-nodemon startApp
+nodemon server.js 
 ```
 
 Go to your browser and visit
