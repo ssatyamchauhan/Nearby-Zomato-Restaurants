@@ -13,7 +13,7 @@ module.exports = (users,knex)=>{
             knex('users').insert({id:null,name:req.body.name,email:req.body.email,password:req.body.pass,status:'pending'})
             .then((status)=>{nodemailer.mailer(req.body.email,message)
                 return res.send({"status":"200","message":"please visit your given email-address to confirm the mail!"})})
-            .catch((err)=>{return res.send(err)})
+            .catch((err)=>{return res.send({message:"user email already exists!"})})
         }
         else{
             return res.send('you password is missmatched!')

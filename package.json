@@ -2,14 +2,17 @@
   "name": "package.json",
   "version": "1.0.0",
   "description": "",
-  "main": "foodiesSearch.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"app"
   },
   "author": "Satyam",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "circular-json": "^0.5.9",
+    "cookies": "^0.7.3",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "geocoder": "^0.2.3",

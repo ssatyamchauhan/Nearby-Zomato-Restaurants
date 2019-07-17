@@ -10,8 +10,9 @@ app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
 app.use(bodyParser.urlencoded({
-    extended: false
+    extended: true
 }))
+app.use(express.json())
 
 var conn = {
     host:'localhost',
@@ -27,7 +28,7 @@ app.get('/signup',(req,res)=>{
 })
 
 app.get('/login',(req,res)=>{
-    return res.render(__dirname+'/views/login')
+        return res.render(__dirname+'/views/login')
 })
 
 app.get('/zomatosearch',(req,res)=>{
