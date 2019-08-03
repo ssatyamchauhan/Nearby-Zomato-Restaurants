@@ -2,12 +2,6 @@
 
 Hello Gyus! I have written the backend and somehow frontend code of login, signup (Your signup email will be verified by sending a link on his/her email-address) and after login you will get zomato location input page that will give the nearby restaurants info by tracking your location.
 
-
-## Video Overview Of Project
-
-[![Watch the video](https://marketingland.com/wp-content/ml-loads/2014/10/facebook-video3-1920-800x450.jpg)](https://youtu.be/T8K3fG7zNYY)
-
-
 ## Requirements
 For linux, install nodejs and npm (node-package-manager) by running following commands in your Terminal.
 
