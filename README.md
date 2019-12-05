@@ -16,21 +16,7 @@ sudo apt install npm
 ``` 
 git clone https://github.com/ssatyamchauhan/Climbax-Project.git
 cd Climbax-Project
-npm init 
-npm install boby-parser --save
-npm install ejs --save
-npm install express --save
-npm install geocoder --save
-npm install jsonwebtoken --save
-npm install jwt-decode --save
-npm install knex --save
-npm install mysql --save
-npm install node-geocoder --save
-npm install nodemon --save
-npm install nodemon --save
-npm install zomato --save
-npm install zomato.js --save
-npm install zomato-api --save
+npm install
 nodemon startApp
 ```
 
