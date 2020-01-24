@@ -1,10 +1,10 @@
 const JSON = require('circular-json');
 var zomato = require('zomato-api');
 var client = zomato({
-    userKey: 'ff4f897b8bc0d97ccd3ed25a6b951fd3'
+    userKey: '**************************'
 })
 const Zomato = require('zomato.js');
-const zomat = new Zomato('ff4f897b8bc0d97ccd3ed25a6b951fd3');
+const zomat = new Zomato('************************');
 
 
 module.exports = (zomatos, knex) => {

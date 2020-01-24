@@ -5,13 +5,13 @@ module.exports.mailer= (email,message)=>{
     var transporter = nodemailer.createTransport({
 	service:'gmail',
 	auth:{
-		user:"satyam18@navgurukul.org",
-		pass:"Mr.singh"
+		user:"**********",
+		pass:"*******"
 		}
 });
 
     var mailOptions = {
-        from:'satyam18@navgurukul.org',
+        from:'************',
         to: email,
         subject:'Verification mail',
         html: message

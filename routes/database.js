@@ -1,14 +1,14 @@
 const mysql = require('mysql');
 
 var conn = {
-    host:'localhost',
-    user:'root',
-    password:'Navgurukul',
-    database:'zomato'
+    host:'*************',
+    user:'******',
+    password:'*******',
+    database:'****'
 }
 var knex = require('knex')({client:'mysql',connection:conn})
 
-knex.raw('CREATE DATABASE IF NOT EXISTS zomato')
+knex.raw('CREATE DATABASE IF NOT EXISTS *****')
     .then((data)=>{console.log('createDb successfully!')})
     .catch((err)=>{console.log(err.message)})
 
