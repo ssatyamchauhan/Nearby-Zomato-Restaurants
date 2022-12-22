@@ -16,7 +16,7 @@
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "geocoder": "^0.2.3",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "jwt-decode": "^2.2.0",
     "knex": "^0.20.8",
     "mysql": "^2.18.1",
